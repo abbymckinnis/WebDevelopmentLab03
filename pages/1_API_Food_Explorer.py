@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Food API Explorer", page_icon="🍽️")
 
-st.title("Food API Explorer :)")
+st.title("Food API Explorer 🍱🔍")
 st.write("Explore meal data using TheMealDB API.")
 
 BASE_URL = "https://www.themealdb.com/api/json/v1/1"

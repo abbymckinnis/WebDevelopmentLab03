@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 # Title of App
 st.title("Web Development Lab03")
 
@@ -9,6 +10,7 @@ st.title("Web Development Lab03")
 st.header("CS 1301")
 st.subheader("Team 15, Web Development - Section B")
 st.subheader("Abby McKinnis, Alexander LaBarre")
+st.image("images/food.png", width=200)
 
 
 # Introduction
@@ -21,10 +23,13 @@ st.subheader("Abby McKinnis, Alexander LaBarre")
 st.write("""
 Welcome to our Streamlit Web Development Lab03 app! You can navigate between the pages using the sidebar to the left. The following pages are:
 
-1. Food API Explorer: 
-2.
-3. 
-4. 
+1. **Food API Explorer**: 
+         This app lets you search and filter meals by category, region, or 
+         keyword using TheMealDB API. It displays results, provides 
+         recipe details, and shows a chart of meal name lengths.
+2. **AI Recipe Chatbot**:
+         This app acts as a culinary assistant named "Gourmet Guide AI". It uses 
+         generative AI to answer your cooking questions while remembering your conversation history.
 
 """)
 
